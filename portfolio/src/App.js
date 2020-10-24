@@ -12,18 +12,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="">
+        <header className="App-header">
           
         </header>
         <Switch>
           <Route path="/">
-            {/* { render home page} */}
+            {/* {render home page} */}
           </Route>
           <Route path="/dont-die-food">
-            {/* { render ddf page} */}
+            {/* {render ddf page} */}
           </Route>
-          <Route path="thinktwice">
-            {/* { render tt page} */}
+          <Route path="/thinktwice">
+            {/* {render tt page} */}
           </Route>
         </Switch>
       </div>
