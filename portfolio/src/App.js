@@ -10,23 +10,27 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
-      <h1> Yo </h1>
-      <Switch>
-          <Route path="/">
-            {/* {render home page} */}
-          </Route>
-          <Route path="/dont-die-food">
-            {/* {render ddf page} */}
-          </Route>
-          <Route path="/thinktwice">
-            {/* {render tt page} */}
-          </Route>
-          <Route path="/contact">
-            {/* {render contact page} */}
-          </Route>
-        </Switch>
-    </div>
+      <div className="container">
+        <div className="App">
+          <Switch>
+              <Route path="/">
+                {/* <Home /> */}
+              </Route>
+              <Route path="/work">
+                {/* {render work section} */}
+              </Route>
+              <Route path="/dont-die-food">
+                {/* {render ddf page} */}
+              </Route>
+              <Route path="/thinktwice">
+                {/* {render tt page} */}
+              </Route>
+              <Route path="/contact">
+                {/* <Contact /> */}
+              </Route>
+            </Switch>
+        </div>
+      </div>
     </Router>
   );
 }
