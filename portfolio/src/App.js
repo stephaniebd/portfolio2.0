@@ -6,12 +6,15 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <Router>
       <div className="container">
-        <div className="App">
+        <div className="App"> 
+          <Navbar />
           <Switch>
               <Route path="/">
                 {/* <Home /> */}
