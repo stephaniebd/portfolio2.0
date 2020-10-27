@@ -7,32 +7,36 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 
 function App() {
   return (
     <Router>
       <div className="container">
-        <div className="App"> 
-          <Navbar />
-          <Switch>
-              <Route path="/">
-                {/* <Home /> */}
-              </Route>
-              <Route path="/work">
-                {/* {render work section} */}
-              </Route>
-              <Route path="/dont-die-food">
-                {/* {render ddf page} */}
-              </Route>
-              <Route path="/thinktwice">
-                {/* {render tt page} */}
-              </Route>
-              <Route path="/contact">
-                {/* <Contact /> */}
-              </Route>
-            </Switch>
+        <div className="sub-container">
+          <div className="App"> 
+            <Navbar />
+            <Switch>
+                <Route path="/">
+                  <Home />
+                </Route>
+                <Route path="/work">
+                  {/* {render work section} */}
+                </Route>
+                <Route path="/dont-die-food">
+                  {/* {render ddf page} */}
+                </Route>
+                <Route path="/thinktwice">
+                  {/* {render tt page} */}
+                </Route>
+                <Route path="/contact">
+                  {/* <Contact /> */}
+                </Route>
+              </Switch>
+          </div>  
         </div>
+        
       </div>
     </Router>
   );

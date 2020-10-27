@@ -1,0 +1,64 @@
+.banner {
+    height: 100vh;
+}
+h1{
+    font-family: Happy Times at the IKOB New Game Plus Edition;
+    font-size: 88px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    font-family: Happy Times at the IKOB New Game Plus Edition;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hero-banner p {
+    font-family: Happy Times at the IKOB New Game Plus Edition;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hero-banner {
+    position: absolute;
+    width: 833px;
+    height: 204px;
+    left: 35%;
+    top: 30%;
+}
+
+.line {
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 105px;
+    height: 0px;
+    left: 85%;
+    top: 80%;
+}
+
+.scroll-text {
+    display: flex;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    position: absolute;
+    left: 90%;
+    top: 76%;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
