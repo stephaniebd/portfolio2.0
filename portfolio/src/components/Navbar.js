@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 
+
 function Navbar() {
     const [open, setOpen] = useState(false);
 
@@ -20,7 +21,6 @@ function Navbar() {
                 <li><Link activeClassName="" to='/contact'>contact</Link></li>
             </ul>
             <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>
-            {/* <i onClick={() => setOpen(!open)} className=""></i> */}
         </nav>
         
         </>

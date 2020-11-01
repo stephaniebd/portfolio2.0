@@ -1,33 +1,36 @@
 .section-line {
-    position: absolute;
+    /* position: absolute; */
     width: 75%;
     height: 0px;
     left: 15%;
     top: 100%;
 
     border: 1px solid #000000;
+    margin-bottom: 8%;
 }
 
 .content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 8%;
 }
 
 .text {
-    position: absolute;
-    width: 399px;
+    /* position: absolute; */
+    /* width: 399px;
     height: 140px;
     left: 160px;
-    top: 1149px;
+    top: 1149px; */
 }
 
-.content ul {
+ul {
     list-style: none;
 }
 
 .mockup {
-    position: absolute;
-    margin: 50px;
-    width: 50%;
+    /* position: absolute; */
+    /* margin: 50px; */
+    /* width: 50%; */
     /* height: 539px; */
     /* left: 658.91px; */
     /* top: 1150px; */
