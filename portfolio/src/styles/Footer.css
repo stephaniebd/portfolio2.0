@@ -2,10 +2,18 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20%;
-    opacity: 0.5;
+    opacity: 0.4;
+    margin-bottom: 56px;
 }
 
+.footer p {
+    font-size: 14px;
+}
 .footer-socials {
     display: flex;
+}
 
+i {
+    margin: 0px 4px;
+    color: #080A0D;
 }
