@@ -1,3 +1,13 @@
 .about-section {
     width: 640px;
 }
+
+.more-info {
+    display: flex;
+}
+
+.resume {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #080A0D;
+}

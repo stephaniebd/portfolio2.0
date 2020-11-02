@@ -28,7 +28,7 @@ const items = [
         picture: <img src={ttmockup} alt="thiktwice mockup" height="450" width="706"/>,
     },
     {
-        key: "2",
+        key: "3",
         title:"Rafiki Digital Website Redesign",
         about:  <ul>
                     <li><p>Concept</p></li>
