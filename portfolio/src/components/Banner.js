@@ -13,8 +13,7 @@ const Banner = () => {
                 <p>— Neville Brody</p>
             </div>
             <div className="scroll">
-                <div className="line"></div>
-                <p className="scroll-text">scroll</p>
+                <p className="scroll-text animated bounce">scroll</p>
             </div>
         </div>
     )

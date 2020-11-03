@@ -17,8 +17,8 @@ function Navbar() {
             </Link>
             <ul className="nav-items" 
                 style={{ transform: open ? "translateX(0px)" : "" }}>
-                <li><Link activeClassName="" to='/work'>my work</Link></li>
-                <li><Link activeClassName="" to='/contact'>contact</Link></li>
+                <li><Link className="" to='/work'>my work</Link></li>
+                <li><Link className="" to='/contact'>contact</Link></li>
             </ul>
             <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>
         </nav>
