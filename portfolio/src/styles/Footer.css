@@ -1,9 +1,8 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 20%;
+    margin: 8% 8% 2% 8%;
     opacity: 0.4;
-    margin-bottom: 56px;
 }
 
 .footer p {
