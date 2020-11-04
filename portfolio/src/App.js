@@ -8,6 +8,7 @@ import {
 import './App.css';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Resume from "./components/Resume";
 import Home from "./pages/Home";
 
 
@@ -19,7 +20,7 @@ function App() {
           <div className="App"> 
             <Navbar />
             <Switch>
-                <Route path="/">
+                <Route exact path="/">
                   <Home />
                 </Route>
                 <Route path="/work">
@@ -33,6 +34,9 @@ function App() {
                 </Route>
                 <Route path="/contact">
                   {/* <Contact /> */}
+                </Route>
+                <Route path="/resume">
+                  <Resume />
                 </Route>
               </Switch>
             <Footer/>
