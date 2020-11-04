@@ -8,6 +8,9 @@ const AboutSection = () => {
         <>
             <div className="section-line"></div>
             <div className="about-section">
+                
+            </div>
+            <div className="about-section-content">
                 <h2>About</h2>
                 <p>
                     I am a creative Junior UI/UX who was a Merchandising Manager for several years 
