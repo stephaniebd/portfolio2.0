@@ -1,13 +1,8 @@
-.about-section {
-    /* margin: 0% 30%; */
-}
-
 .more-info {
     display: flex;
 }
 
 .resume {
-    /* margin-right: 16px; */
     text-decoration: none;
     color: #080A0D;
 }
@@ -15,3 +10,29 @@
 .about-section-content {
     padding: 0% 8% 0% 35%;
 }
+
+.about-socials {
+    margin: 0px 16px;
+}
+
+.about-socials a {
+    margin-left: 8px;
+}
+
+svg:hover {
+    color: #1150FE;
+}
+
+a {
+    text-decoration: none;
+    color: #080A0D;
+}
+
+.resume:hover {
+    color: #1150FE;
+}
+
+.contact:hover {
+    color: #1150FE;
+}
+

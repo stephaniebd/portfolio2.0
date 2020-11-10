@@ -37,7 +37,7 @@ h1 {
 }
 
 .animated {
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
 }

@@ -8,8 +8,12 @@ import {
 import './App.css';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import ProjectSection from "./components/ProjectSection";
 import Resume from "./components/Resume";
+import Contact from "./pages/Contact";
+import DontDieFood from "./pages/DontDieFood";
 import Home from "./pages/Home";
+import ThinkTwice from "./pages/ThinkTwice";
 
 
 function App() {
@@ -23,23 +27,22 @@ function App() {
               <Home />
             </Route>
 
-            <Route path="/work">
-              {/* {render work section} */}
+            <Route path="/Work" component={ProjectSection}>
             </Route>
 
-            <Route path="/dont-die-food">
-              {/* {render ddf page} */}
+            <Route path="/DontDieFood">
+              <DontDieFood />
             </Route>
 
-            <Route path="/thinktwice">
-              {/* {render tt page} */}
+            <Route path="/ThinkTwice">
+              <ThinkTwice />
             </Route>
 
-            <Route path="/contact">
-              {/* <Contact /> */}
+            <Route path="/Contact">
+              <Contact />
             </Route>
 
-            <Route path="/resume">
+            <Route path="/Resume">
               <Resume />
             </Route>
 

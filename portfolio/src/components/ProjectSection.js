@@ -10,22 +10,22 @@ import rdmockup from "../assets/mockup RD.png";
 const items = [
     {
         key: "1",
-        title:"Don’t Die Food Website App",
+        title:<Link to="/DontDieFood"><h2>Don’t Die Food Website App</h2></Link>,
         about:  <ul>
                     <li><p>Concept</p></li>
                     <li><p>UI/UX Design</p></li>
                     <li><p>Web Development</p></li>
                 </ul>,
-        picture: <img src={ddfmockup} alt="don't die food mockup" height="539" width="658"/>,
+        picture: <Link to="/DontDieFood"><img src={ddfmockup} alt="don't die food mockup" height="539" width="658"/></Link>,
     },
     {
         key: "2",
-        title:"ThinkTwice Website Redesign",
+        title:<Link to="/ThinkTwice"><h2>ThinkTwice Website Redesign</h2></Link>,
         about:  <ul>
                     <li><p>Concept</p></li>
                     <li><p>UI/UX Design</p></li>
                 </ul>,
-        picture: <img src={ttmockup} alt="thiktwice mockup" height="450" width="706"/>,
+        picture: <Link to="/ThinkTwice"><img src={ttmockup} alt="thiktwice mockup" height="450" width="706"/></Link>,
     },
     {
         key: "3",
