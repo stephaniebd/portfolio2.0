@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            <p>© All right reserved – Stephanie Beauzile-Domond</p>
+            <p>© All right reserved – Stephanie Beauzile-Domond // Special thanks to Stacy Moore</p>
 
             <ul className="footer-socials">
                 <a href="https://www.linkedin.com/in/stephaniebd/" target="blank"><i className="fab fa-linkedin-in"></i></a>

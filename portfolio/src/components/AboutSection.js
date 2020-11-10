@@ -6,9 +6,7 @@ const AboutSection = () => {
     return (
         <>
             <div className="section-line"></div>
-            <div className="about-section">
-                
-            </div>
+            
             <div className="about-section-content">
                 <h2>About</h2>
                 <p>

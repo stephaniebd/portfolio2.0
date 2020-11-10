@@ -45,19 +45,22 @@ const ProjectSection = () => {
                 return (
                     <>
                         <div className="section-line"></div>
-                        <div className="content">
-                            <div className="text">
-                                <h2>{item.title}</h2>
-                                <br/><br/>
-                                {item.about}   
+                        <div className="container">
+                            <div className="content">
+                                <div className="text">
+                                    <h2>{item.title}</h2>
+                                    <br/><br/>
+                                    {item.about}   
+                                </div>    
+                                <div className="mockup">
+                                    {item.picture}
+                                </div>
                             </div>    
-                            <div className="mockup">
-                                {item.picture}
-                            </div>
                         </div>
+                        
                     </>    
                 );
-            })}
+            })}    
         </>
     )
 }

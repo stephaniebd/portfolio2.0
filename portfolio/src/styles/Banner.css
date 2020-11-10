@@ -1,5 +1,6 @@
 .banner {
     height: 100vh;
+    padding: 0% 8%;
 }
 h1 {
     font-family: Happy Times at the IKOB New Game Plus Edition;
@@ -9,6 +10,7 @@ h1 {
     line-height: 102px;
     letter-spacing: 0em;
     text-align: left;
+    
 
 
     font-family: Happy Times at the IKOB New Game Plus Edition;
@@ -31,11 +33,7 @@ h1 {
 }
 
 .hero-banner {
-    position: absolute;
-    width: 833px;
-    height: 204px;
-    left: 35%;
-    top: 30%;
+    padding: 15% 0% 0% 30%;
 }
 
 .animated {
