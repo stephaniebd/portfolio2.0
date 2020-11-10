@@ -1,0 +1,13 @@
+.project-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.DDF-hero {
+    display: flex;
+    margin: 0% 0% 8% 8%;
+}
+
+img {
+    margin-left: 8%;
+}

@@ -1,9 +1,10 @@
 import React from 'react'
+import DDFBanner from '../components/DDFBanner'
 
 const DontDieFood = () => {
     return (
         <div>
-            <h1>DontDieFood</h1>
+            <DDFBanner />
         </div>
     )
 }

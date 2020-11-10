@@ -29,6 +29,7 @@ const items = [
     },
     {
         key: "3",
+        // link to figma prototype
         title:"Rafiki Digital Website Redesign",
         about:  <ul>
                     <li><p>Concept</p></li>

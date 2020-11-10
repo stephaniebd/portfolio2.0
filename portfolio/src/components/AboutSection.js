@@ -53,8 +53,7 @@ const AboutSection = () => {
                 
                 <br/><br/><br/><br/><br/>
                 <h2>Get In Touch?</h2>
-                {/* Need to link to form */}
-                <p>Want to learn more about me and what I could do for you? <Link to="" className="contact">Contact me!</Link></p>
+                <p>Want to learn more about me and what I could do for you? <Link to="/Contact" className="contact">Contact me!</Link></p>
             </div>
         </>
     )
