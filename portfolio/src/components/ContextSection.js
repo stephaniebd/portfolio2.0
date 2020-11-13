@@ -3,6 +3,8 @@ import React from 'react'
 import '../styles/ContextSection.css';
 
 import bigcellmockup from "../assets/Bigcell mockup DDF.png";
+import mlmockup from "../assets/MLmockup.png";
+import scmockup from "../assets/SCmockup.png";
 
 const ContextSection = () => {
     return (
@@ -64,6 +66,25 @@ const ContextSection = () => {
                     <img src={bigcellmockup} alt="DDF mockup" height="678" width="367"/>
                 </div>
             </div>
+
+            <div className="research">
+                <h2>Research</h2>
+                <p className="italic-sub">Generate and gather ideas</p>
+                <br/><br/>
+                <p>To kick off the project we started with a competitor analysis and a persona.</p>
+
+                <div className="div-flex">
+                    <img className="scmockup" src={scmockup} alt="SC mockup" height="332" width="719"/>
+                    <p className="mockup-name">Supercook.com</p>    
+                </div>
+                
+                <div className="div-flex-right">
+                    <p className="mockup-name">MunchLab.com</p> 
+                    <img className="mlmockup" src={mlmockup} alt="ML mockup" height="332" width="712"/>
+                </div>
+                
+            </div>
+
             
         </>
     )

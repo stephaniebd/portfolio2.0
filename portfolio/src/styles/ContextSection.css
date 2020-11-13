@@ -32,3 +32,33 @@
 .div-flex {
     display: flex;
 }
+
+.research {
+    padding: 0 8%;
+    background-color: #171F26;
+    color: #FAFAFA;
+}
+
+.research h2 {
+    padding-top: 8%;
+}
+
+.mockup-name {
+    align-self: flex-end;
+    padding-bottom: 2.5%;
+}
+
+.scmockup {
+    margin-left: 0%;
+    margin-right: 1%;
+}
+
+.div-flex-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8%;
+}
+
+.mlmockup {
+    margin-left: 3%;
+}
