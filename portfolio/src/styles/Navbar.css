@@ -1,11 +1,13 @@
 .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 15vh;
     font-family: Happy Times at the IKOB New Game Plus Edition;
     padding: 0% 8%;
-    /* add sticky  */
+    z-index: 100;
 }
 
 .nav-logo {

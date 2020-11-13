@@ -25,11 +25,12 @@ p {
     line-height: 180%
 }
 
-.subtile {
+.subtitle {
     font-family: Inter;
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
+    padding: 24px 0 8px 0;
 }
 
 .italic-sub {

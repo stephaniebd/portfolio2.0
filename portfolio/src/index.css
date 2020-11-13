@@ -3,6 +3,7 @@ html, body {
   font-size: 16px;
   background-color: #FAFAFA;
   color: #080A0D;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,4 +18,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-

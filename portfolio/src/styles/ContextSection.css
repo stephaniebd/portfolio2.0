@@ -1,0 +1,34 @@
+.details-flex {
+    display: flex;
+    margin: 0% 8% 0% 60%;
+}
+
+.details:first-child {
+    margin-right: 10%;
+}
+
+.context-content {
+    margin-top: 6%;
+    padding: 0 8% 0 30%;
+}
+
+.links-flex {
+    margin: 8% 0;
+}
+
+/* can't seem to have hover on link */
+.links-flex:hover {
+    color: #1150FE;
+}
+
+.link-project{
+    margin-right: 8%;
+}
+
+.link-bold {
+    font-weight: 700;
+}
+
+.div-flex {
+    display: flex;
+}

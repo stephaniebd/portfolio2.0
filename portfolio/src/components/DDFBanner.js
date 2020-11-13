@@ -10,7 +10,7 @@ const DDFBanner = () => {
                 <h2 className="project-title">Don't Die Food</h2>
                 <img src={ddfmockups} alt="ddf mockup" height="615" width="1012"/>
             </div>
-            <div className="section-line"></div>
+            <div className="ddf-section-line"></div>
         </>
     )
 }

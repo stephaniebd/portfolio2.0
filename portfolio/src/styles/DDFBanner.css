@@ -9,5 +9,12 @@
 }
 
 img {
-    margin-left: 8%;
+    margin: 8% 0% 0% 8%;
+}
+
+.ddf-section-line {
+    width: 92%;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: 0% 0% 3% 8%;
 }
