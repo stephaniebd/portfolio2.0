@@ -1,0 +1,20 @@
+.final-section {
+    background-color: #E0E0E0;
+}
+
+.final-h2 {
+    padding: 8% 8% 8% 60%;
+    text-align: end;
+}
+
+.final-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 54px;
+    row-gap: 54px; 
+    padding: 0 8% 8% 8%;
+}
+
+.img-gr {
+    justify-self: end;
+}
