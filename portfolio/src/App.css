@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin: 0;
-  }
-
-.sub-container {
-  min-height: 100vh;  
+.App {
+    /* position: relative; */
+    min-height: calc(100vh - 136.19px - 168.48px);
 }
-
 h2 {
     font-family: Happy Times at the IKOB New Game Plus Edition;
     font-size: 56px;

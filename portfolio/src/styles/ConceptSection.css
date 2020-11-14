@@ -1,0 +1,27 @@
+.concept {
+    background-color: #F5F5F5;
+    padding: 0 8%;
+}
+
+.concept h2 {
+    padding-top: 8%;
+}
+
+.text-right {
+    padding: 0 0% 0 40%;
+}
+
+.userflow-img {
+    display: block;
+    margin: 8% auto;
+}
+
+.sketches-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8%;
+}
+
+.sketches-flex:first-child {
+    margin-right: 2%;
+}

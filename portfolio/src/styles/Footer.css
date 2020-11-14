@@ -1,7 +1,8 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 8% 8% 2% 8%;
+    margin: 0 8%;
+    padding: 8% 0 2% 0;
     opacity: 0.4;
 }
 
@@ -11,8 +12,9 @@
 
 .footer-socials {
     display: flex;
-
+    
 }
+
 .footer-socials a {
     margin-left: 8px;
 }

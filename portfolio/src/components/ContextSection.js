@@ -45,8 +45,10 @@ const ContextSection = () => {
                     but the environmental loss as well. If we all are experiencing the same problem, 
                     there must be a way to combat it together. 
                 </p>
+            </div>    
 
-                <div className="div-flex">
+            <div className="parent">
+                <div className="div-flex-solution">
                     <div className="solution-section">
                         <div className="subtitle">Our Solution </div>
                         <p>
@@ -63,28 +65,26 @@ const ContextSection = () => {
                         <a href="">See code</a>
                     </div>
 
-                    <img src={bigcellmockup} alt="DDF mockup" height="678" width="367"/>
+                    <img className="bigcell-img" src={bigcellmockup} alt="DDF mockup" height="678" width="367"/>
                 </div>
-            </div>
+            </div>    
 
-            <div className="research">
-                <h2>Research</h2>
-                <p className="italic-sub">Generate and gather ideas</p>
-                <br/><br/>
-                <p>To kick off the project we started with a competitor analysis and a persona.</p>
+                <div className="research">
+                    <h2>Research</h2>
+                    <p className="italic-sub">Generate and gather ideas</p>
+                    <br/><br/>
+                    <p>To kick off the project we started with a competitor analysis and a persona.</p>
 
-                <div className="div-flex">
-                    <img className="scmockup" src={scmockup} alt="SC mockup" height="332" width="719"/>
-                    <p className="mockup-name">Supercook.com</p>    
+                    <div className="div-flex-left">
+                        <img className="scmockup" src={scmockup} alt="SC mockup" height="332" width="719"/>
+                        <p className="mockup-name">Supercook.com</p>    
+                    </div>
+                    
+                    <div className="div-flex-right">
+                        <p className="mockup-name">MunchLab.com</p> 
+                        <img className="mlmockup" src={mlmockup} alt="ML mockup" height="332" width="712"/>
+                    </div>
                 </div>
-                
-                <div className="div-flex-right">
-                    <p className="mockup-name">MunchLab.com</p> 
-                    <img className="mlmockup" src={mlmockup} alt="ML mockup" height="332" width="712"/>
-                </div>
-                
-            </div>
-
             
         </>
     )
