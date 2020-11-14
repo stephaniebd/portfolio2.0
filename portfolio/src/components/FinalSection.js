@@ -14,7 +14,7 @@ const items = [
     },
     {
         key: "2",
-        picture: <img className="mockup-finalr2" src={mockupfinalr2} alt="final mockup" height="465" width="511.5"/>,
+        picture: <img src={mockupfinalr2} alt="final mockup" height="465" width="511.5"/>,
         explanations: 'They can find recipes according to the food item they entered in the form and see what ingredient they already have on hand to proceed.'
     },
     {
