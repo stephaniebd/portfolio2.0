@@ -1,10 +1,10 @@
 .concept {
     background-color: #F5F5F5;
-    padding: 0 8%;
+    padding: 8% 8%;
 }
 
 .concept h2 {
-    padding-top: 8%;
+    /* padding-top: 8%; */
 }
 
 .text-right {
@@ -19,7 +19,7 @@
 .sketches-flex {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 8%;
+    /* padding-bottom: 8%; */
 }
 
 .sketches-flex:first-child {
