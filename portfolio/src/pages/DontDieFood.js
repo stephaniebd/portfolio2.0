@@ -4,6 +4,7 @@ import ContextSection from '../components/ContextSection'
 import DDFBanner from '../components/DDFBanner'
 import DesignSection from '../components/DesignSection'
 import FinalSection from '../components/FinalSection'
+import GetInTouchSection from '../components/GetInTouchSection'
 import NextSection from '../components/NextSection'
 import OutcomeSection from '../components/OutcomeSection'
 
@@ -17,6 +18,7 @@ const DontDieFood = () => {
             <FinalSection />
             <OutcomeSection />
             <NextSection />
+            <GetInTouchSection />
         </div>
     )
 }
