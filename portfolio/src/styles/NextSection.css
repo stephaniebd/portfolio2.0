@@ -1,0 +1,21 @@
+.container {
+    padding: 0% 8%;
+    margin-top: 8%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8% 0% 8% 0%;
+}
+
+.section-line {
+    width: 92%;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: 0% 0% 8% 8%;
+}
+
+.next-title {
+    margin-top: 140px;
+}
