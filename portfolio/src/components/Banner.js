@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="banner">
             <div className="hero-banner">
                 <h1>Hi, I’m <em>Stephanie</em>,</h1>
-                <h1><strong>UI/UX Designer</strong></h1>
+                <h1><strong>UX/UI Developer</strong></h1>
                 <br/>
                 <p>“Design is more than just a few tricks to the eye.</p>
                 <p>It’s a few tricks to the brain.”</p>
