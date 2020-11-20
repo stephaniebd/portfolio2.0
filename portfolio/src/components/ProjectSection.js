@@ -16,7 +16,7 @@ const items = [
                     <li><p>UI/UX Design</p></li>
                     <li><p>Web Development</p></li>
                 </ul>,
-        picture: <Link to="/DontDieFood"><img src={ddfmockup} alt="don't die food mockup" height="539" width="658"/></Link>,
+        picture: <Link to="/DontDieFood"><img src={ddfmockup} alt="don't die food mockup" height="100%" width="100%"/></Link>,
     },
     {
         key: "2",
@@ -25,7 +25,7 @@ const items = [
                     <li><p>Concept</p></li>
                     <li><p>UI/UX Design</p></li>
                 </ul>,
-        picture: <Link to="/ThinkTwice"><img src={ttmockup} alt="thiktwice mockup" height="450" width="706"/></Link>,
+        picture: <Link to="/ThinkTwice"><img src={ttmockup} alt="thiktwice mockup" height="100%" width="100%"/></Link>,
     },
     {
         key: "3",
@@ -35,7 +35,7 @@ const items = [
                     <li><p>Concept</p></li>
                     <li><p>UI/UX Design</p></li>
                 </ul>,
-        picture: <img src={rdmockup} alt="rafiki mockup" height="453" width="510"/>,
+        picture: <img src={rdmockup} alt="rafiki mockup" height="100%" width="100%"/>,
     },
 ]
 

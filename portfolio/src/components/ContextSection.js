@@ -65,7 +65,7 @@ const ContextSection = () => {
                         <a href="">See code</a>
                     </div>
 
-                    <img className="bigcell-img" src={bigcellmockup} alt="DDF mockup" height="678" width="367"/>
+                    <img className="bigcell-img" src={bigcellmockup} alt="DDF mockup" height="47%" width="47%"/>
                 </div>
             </div>    
 
@@ -76,13 +76,13 @@ const ContextSection = () => {
                     <p>To kick off the project we started with a competitor analysis and a persona.</p>
 
                     <div className="div-flex-left">
-                        <img className="scmockup" src={scmockup} alt="SC mockup" height="332" width="719"/>
+                        <img className="scmockup" src={scmockup} alt="SC mockup" height="65%" width="65%"/>
                         <p className="mockup-name">Supercook.com</p>    
                     </div>
                     
                     <div className="div-flex-right">
                         <p className="mockup-name">MunchLab.com</p> 
-                        <img className="mlmockup" src={mlmockup} alt="ML mockup" height="332" width="712"/>
+                        <img className="mlmockup" src={mlmockup} alt="ML mockup" height="65%" width="65%"/>
                     </div>
                 </div>
             

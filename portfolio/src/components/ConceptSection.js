@@ -23,10 +23,10 @@ const ConceptSection = () => {
                     </p>
                 </div>
 
-                <img className="userflow-img" src={userflow} alt="user flow" height="755.14" width="739.21"/>
+                <img className="userflow-img" src={userflow} alt="user flow" height="75%" width="75%"/>
 
                 <div className="sketches-flex">
-                    <img className="sketches-img" src={sketches} alt="user flow" height="290.36" width="1120.19"/>
+                    <img className="sketches-img" src={sketches} alt="user flow" height="100%" width="100%"/>
                 </div>
             </div>
         </>
