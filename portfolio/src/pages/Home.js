@@ -3,7 +3,9 @@ import AboutSection from '../components/AboutSection'
 import Banner from '../components/Banner'
 import ProjectSection from '../components/ProjectSection'
 
-const Home = () => {
+const Home = ({isMobile}) => {
+    console.log(isMobile, 'isMobile');
+
     return (
         <>
             <Banner />

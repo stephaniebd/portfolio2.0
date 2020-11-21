@@ -21,8 +21,11 @@ const ContextSection = () => {
                 <div className="details">
                    <div className="subtitle">Tools</div>
                     <ul>
-                        <li><p>Figma, HTML, CSS,</p></li>
-                        <li><p>JavaScript, Ruby on Rails</p></li>
+                        <li><p>Figma,</p></li>
+                        <li><p>HTML,</p></li>
+                        <li><p>CSS,</p></li>
+                        <li><p>JavaScript,</p></li>
+                        <li><p>Ruby on Rails</p></li>
                     </ul> 
                 </div>
             </div>
@@ -65,7 +68,7 @@ const ContextSection = () => {
                         <a href="">See code</a>
                     </div>
 
-                    <img className="bigcell-img" src={bigcellmockup} alt="DDF mockup" height="47%" width="47%"/>
+                    <img className="bigcell-img" src={bigcellmockup} alt="DDF mockup" height="41%" width="41%"/>
                 </div>
             </div>    
 

@@ -1,6 +1,7 @@
 .details-flex {
     display: flex;
-    margin: 0% 8% 0% 60%;
+    justify-content: flex-end;
+    margin: 0% 8% 0% 47%;
 }
 
 .details:first-child {

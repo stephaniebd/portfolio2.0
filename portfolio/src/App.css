@@ -4,53 +4,43 @@
     box-sizing: border-box;
 }
 
-.App {
-    /* position: relative; */
-    /* min-height: calc(100vh - 136.19px - 168.48px); */
-}
 h2 {
     font-family: Happy Times at the IKOB New Game Plus Edition;
-    /* font-size: 56px; */
-    font-size: 3.1em;
+    font-size: clamp(2.1rem, 4vw, 4rem);
     font-weight: 400;
 }
 
 h3 {
     font-family: Inter;
     font-weight: 500;
-    font-size: 40px;
-    /* font-size: 40px; */
+    font-size: clamp(1.5rem, 2vw, 3rem);
     line-height: 32px;
 }
 
 p {
     font-family: Inter;
     font-weight: 300;
-    /* font-size: 18px; */
-    font-size: 1.13em;
+    font-size: clamp(1rem, 1vw, 1.125rem);
     line-height: 180%
 }
 
 .subtitle {
     font-family: Inter;
     font-weight: bold;
-    /* font-size: 18px; */
     line-height: 32px;
-    font-size: 1.13em;
+    font-size: clamp(1rem, 1vw, 1.125rem);
     padding: 24px 0 8px 0;
 }
 
 .italic-sub {
     font-family: Happy Times at the IKOB New Game Plus Edition;
     font-style: italic;
-    /* font-size: 16px; */
-    font-size: 1em;
+    font-size: clamp(1rem, 1vw, 1.125rem);
 }
 
 a {
     font-family: Happy Times at the IKOB New Game Plus Edition;
-    font-size: 18px;
-    /* font-size: 1.13em; */
+    font-size: clamp(1rem, 1vw, 1.125rem);
 }
 
 

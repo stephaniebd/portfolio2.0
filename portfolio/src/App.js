@@ -16,7 +16,24 @@ import Home from "./pages/Home";
 import ThinkTwice from "./pages/ThinkTwice";
 
 
+const useViewport = () => {
+  const [width, setWidth] = React.useState(window.innerWidth);
+
+  React.useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
+  // Return the width so we can use it in our components
+  return { width };
+}
+
 function App() {
+  const { width } = useViewport();
+  const breakpoint = 480;
+  const isMobile = width <  breakpoint;
+
   return (
     <Router>
       <div className="App"> 
@@ -24,14 +41,14 @@ function App() {
 
           <Switch>
             <Route exact path="/">
-              <Home />
+              <Home isMobile={isMobile} />
             </Route>
 
             <Route path="/Work" component={ProjectSection}>
             </Route>
 
             <Route path="/DontDieFood">
-              <DontDieFood />
+              <DontDieFood width={width} />
             </Route>
 
             <Route path="/ThinkTwice">

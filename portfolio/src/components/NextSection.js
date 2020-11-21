@@ -14,7 +14,7 @@ const NextSection = () => {
                         <h2 className="next-title">ThinkTwice Website Redesign</h2>
                     </div>    
                     <div className="mockup">
-                        <Link to="/ThinkTwice"><img src={ttmockup} alt="thiktwice mockup" height="450" width="706"/></Link>
+                        <Link to="/ThinkTwice"><img src={ttmockup} alt="thiktwice mockup" height="100%" width="100%"/></Link>
                     </div>
                 </div>    
             </div>

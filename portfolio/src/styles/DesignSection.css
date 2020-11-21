@@ -6,8 +6,10 @@
 }
 
 .design-p {
-    width: 640px;
+    /* width: max(640px); */
+    /* max-width: 640px; */
 }
+
 .design-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
