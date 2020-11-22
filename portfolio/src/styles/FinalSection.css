@@ -18,3 +18,14 @@
 .img-gr {
     justify-self: end;
 }
+
+@media screen and (max-width:768px) {
+    .final-section-grid {
+        grid-template-columns: 1fr;
+        row-gap: 2%;
+    }
+
+    .img-gr {
+        padding-top: 3%;
+    }
+}

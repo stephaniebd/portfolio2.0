@@ -16,7 +16,7 @@ const DesignSection = () => {
                 </p>
                 <div className="design-content">
                     <div className="design-elements-img">
-                    <img className="design-img" src={designelements} alt="user flow" height="100%" width="100%"/>
+                        <img className="design-img" src={designelements} alt="user flow" height="100%" width="100%"/>
                     </div>
                     <div className="design-text">
                         <p>
