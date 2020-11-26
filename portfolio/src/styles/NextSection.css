@@ -1,15 +1,15 @@
-.container {
+.next-container {
     padding: 0% 8%;
     margin-top: 8%;
 }
 
-.content {
+.next-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 8% 0% 8% 0%;
 }
 
-.section-line {
+.next-section-line {
     width: 92%;
     height: 0px;
     border: 1px solid #000000;

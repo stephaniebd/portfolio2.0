@@ -1,14 +1,6 @@
 .design {
     padding: 8% 8%;
 }
-.design h2 {
-    /* padding-top: 8%; */
-}
-
-.design-p {
-    /* width: max(640px); */
-    /* max-width: 640px; */
-}
 
 .design-content {
     display: grid;

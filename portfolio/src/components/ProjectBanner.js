@@ -18,11 +18,11 @@ const ProjectBanner = ({projectName}) => {
     
     return (
         <>
-            <div className="DDF-hero">
+            <div className="project-hero">
                 <h2 className="project-title">Don't Die Food</h2>
-                <img className="ddf-img" src={getImageForProject(projectName)} alt="ddf mockup" height="75%" width="75%"/>
+                <img className="project-img" src={getImageForProject(projectName)} alt="ddf mockup" height="75%" width="75%"/>
             </div>
-            <div className="ddf-section-line"></div>
+            <div className="project-section-line"></div>
         </>
     )
 }

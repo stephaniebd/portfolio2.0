@@ -7,9 +7,9 @@ import ttmockup from "../assets/mockup TT.png";
 const NextSection = () => {
     return (
         <>
-            <div className="container">
+            <div className="next-container">
             <h3>Next</h3>    
-                <div className="content">
+                <div className="next-content">
                     <div className="text">
                         <h2 className="next-title">ThinkTwice Website Redesign</h2>
                     </div>    
@@ -18,7 +18,7 @@ const NextSection = () => {
                     </div>
                 </div>    
             </div>
-            <div className="section-line"></div>
+            <div className="next-section-line"></div>
         </>
     )
 }

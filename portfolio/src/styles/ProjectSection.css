@@ -7,7 +7,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0% 0% 8% 8%;
 }
 
@@ -17,4 +17,14 @@ ul {
 
 .container {
     padding: 0% 8%;
+}
+
+@media screen and (max-width:480px) {
+    .content {
+        grid-template-columns: 1fr;
+        row-gap: 8%;
+    }
+    .mockup {
+        display: none;
+    } 
 }

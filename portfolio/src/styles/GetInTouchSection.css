@@ -1,3 +1,9 @@
 .get-in-touch-offset {
     padding: 4% 8% 8% 35%;
 }
+
+@media screen and (max-width:480px) {
+    .get-in-touch-offset {
+        padding: 4% 8% 8% 16%;
+    }
+}

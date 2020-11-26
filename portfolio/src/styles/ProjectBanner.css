@@ -3,18 +3,24 @@
     transform: rotate(180deg);
 }
 
-.DDF-hero {
+.project-hero {
     display: flex;
     margin: 0% 0% 8% 8%;
 }
 
-.ddf-img {
+.project-img {
     margin: 8% 0% 0% 8%;
 }
 
-.ddf-section-line {
+.project-section-line {
     width: 92%;
     height: 0px;
     border: 1px solid #000000;
     margin: 0% 0% 3% 8%;
+}
+
+@media screen and (max-width:768px) {
+    .project-img {
+        margin: 16% 0% 0% 8%;
+    }
 }
