@@ -12,9 +12,24 @@
 
 .footer-socials {
     display: flex;
-    
 }
 
 .footer-socials a {
     margin-left: 8px;
+}
+
+@media screen and (max-width:480px) {
+    .footer {
+        display: block;
+        margin: 0 8%;
+        padding: 8% 0 0% 0;
+        opacity: 0.4;
+    }
+
+    .footer-socials {
+        margin: 8% 0%;
+    }
+    .footer-socials a {
+        margin: 0px 8px 0px 0px;
+    }
 }
