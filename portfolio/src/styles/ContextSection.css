@@ -8,6 +8,10 @@
     margin-right: 10%;
 }
 
+.context-title {
+    padding-bottom: 8%;
+}
+
 .context-content {
     margin-top: 6%;
     padding: 0 8% 0 30%;
@@ -90,9 +94,29 @@
         margin-top: 80%;
     }
     .context-content {
-        padding: 0% 8% 100px 8%;
+        padding: 0% 8% 0px 8%;
     }
     .div-flex-solution {
         padding: 0% 8% 100px 8%;
+    }
+
+    .bigcell-img {
+        /* margin: 8% 0% 0% 8%; */
+        display: none;
+    }
+
+    .research {
+        /* margin-top: 135%; */
+        margin-top: 90%;
+    }
+
+    .details-flex {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0% 8% 0% 32%;
+    }
+
+    .context-content {
+        margin-top: 8%;
     }
 }

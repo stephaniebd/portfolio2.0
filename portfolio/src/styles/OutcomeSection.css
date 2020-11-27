@@ -11,3 +11,12 @@
 .outcome-text {
     padding: 0% 0% 8% 30%;
 }
+
+@media screen and (max-width:480px) {
+    .outcome-text {
+        padding: 0%;
+    }
+    .outcome-section {
+        padding: 16% 8%;
+    }
+}

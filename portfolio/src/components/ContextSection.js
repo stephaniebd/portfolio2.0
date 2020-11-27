@@ -31,8 +31,8 @@ const ContextSection = () => {
             </div>
 
             <div className="context-content">
-                <h2>A Web App to share food with your community</h2>
-                <br/><br/><br/>
+                <h2 className="context-title">A Web App to share food with your community</h2>
+                {/* <br/><br/><br/> */}
 
                 <div className="subtitle">Scope and Constraints</div>
                 <p>

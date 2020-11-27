@@ -25,3 +25,12 @@
 .sketches-flex:first-child {
     margin-right: 2%;
 }
+
+@media screen and (max-width:480px) {
+    .concept {
+        padding: 16% 8%;
+    }
+    .text-right {
+        padding: 0 0% 0 0%;
+    }
+}

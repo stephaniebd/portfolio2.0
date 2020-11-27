@@ -34,3 +34,12 @@
     }
 }
 
+@media screen and (max-width:480px) {
+    .final-section-grid {
+        padding: 0 8% 38% 8%;
+    }
+
+    .final-h2 {
+        padding: 16% 8% 8% 0%;
+    }
+}

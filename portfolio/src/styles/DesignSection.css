@@ -21,3 +21,8 @@
         row-gap: 8%;
     }
 }
+@media screen and (max-width:480px) {
+    .design {
+        padding: 16% 8%;
+    }
+}

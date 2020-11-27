@@ -24,3 +24,17 @@
         margin: 16% 0% 0% 8%;
     }
 }
+
+@media screen and (max-width:480px) {
+    
+    .project-img {
+        margin: 35% 0% 0% 0%;
+    }
+
+    .project-title {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-size: 1.5rem;
+        padding-bottom: 32%;
+    }
+}
