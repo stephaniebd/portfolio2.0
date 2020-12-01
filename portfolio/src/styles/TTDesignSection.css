@@ -1,0 +1,26 @@
+.design {
+    padding: 8% 8%;
+    background-color: #E0E0E0;
+}
+.design-p {
+    max-width: 640px;
+}
+
+.design-guide-img {
+    /* padding: 8%; */
+    margin: 8% auto;
+    width: max(100%);
+}
+
+
+@media screen and (max-width:768px) {
+    .design-content {
+        grid-template-columns: 1fr;
+        row-gap: 8%;
+    }
+}
+@media screen and (max-width:480px) {
+    .design {
+        padding: 16% 8%;
+    }
+}

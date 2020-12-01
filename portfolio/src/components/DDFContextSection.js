@@ -1,12 +1,13 @@
 import React from 'react'
 
-import '../styles/ContextSection.css';
+import '../styles/DDFContextSection.css';
 
 import bigcellmockup from "../assets/Bigcell mockup DDF.png";
 import mlmockup from "../assets/MLmockup.png";
 import scmockup from "../assets/SCmockup.png";
 
 const ContextSection = () => {
+     
     return (
         <>
             <div className="details-flex">
@@ -32,7 +33,6 @@ const ContextSection = () => {
 
             <div className="context-content">
                 <h2 className="context-title">A Web App to share food with your community</h2>
-                {/* <br/><br/><br/> */}
 
                 <div className="subtitle">Scope and Constraints</div>
                 <p>

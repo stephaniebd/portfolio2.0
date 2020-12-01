@@ -18,7 +18,7 @@
 }
 
 .links-flex {
-    margin: 8% 0;
+    margin: 20px 0;
 }
 
 /* can't seem to have hover on link */
@@ -47,14 +47,15 @@
 }
 
 .research {
-    margin-top: 30%;
-    padding: 0 8%;
+    /* margin-top: 30%; */
+    margin-top: 360px;
+    padding: 8% 8%;
     background-color: #171F26;
     color: #FAFAFA;
 }
 
 .research h2 {
-    padding-top: 8%;
+    /* padding-top: 8%; */
 }
 
 .mockup-name {
@@ -62,21 +63,8 @@
     padding-bottom: 2.5%;
 }
 
-.scmockup {
-    margin: 8% 1% 0% 0%;
-}
-
-.div-flex-left {
-    display: flex;
-}
-.div-flex-right {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 8%;
-}
-
-.mlmockup {
-    margin: 8% 0% 0% 3%;
+.research-content {
+    max-width: 636px;
 }
 
 .bigcell-img {
@@ -93,9 +81,11 @@
     .research {
         margin-top: 80%;
     }
+
     .context-content {
         padding: 0% 8% 0px 8%;
     }
+    
     .div-flex-solution {
         padding: 0% 8% 100px 8%;
     }
@@ -106,8 +96,7 @@
     }
 
     .research {
-        /* margin-top: 135%; */
-        margin-top: 90%;
+        margin-top: 360px;
     }
 
     .details-flex {
@@ -118,5 +107,9 @@
 
     .context-content {
         margin-top: 8%;
+    }
+
+    .div-flex-right {
+        padding-bottom: 24%;
     }
 }

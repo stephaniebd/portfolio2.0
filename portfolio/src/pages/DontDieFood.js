@@ -1,6 +1,6 @@
 import React from 'react'
 import ConceptSection from '../components/ConceptSection'
-import ContextSection from '../components/ContextSection'
+import DDFContextSection from '../components/DDFContextSection'
 import ProjectBanner from '../components/ProjectBanner'
 import DesignSection from '../components/DesignSection'
 import FinalSection from '../components/FinalSection'
@@ -13,7 +13,7 @@ const DontDieFood = ({ width }) => {
     return (
         <div>
             <ProjectBanner projectName={'DDF'} />
-            <ContextSection  />
+            <DDFContextSection />
             <ConceptSection />
             {/* {width < 620 ? null : <DesignSection />} */}
             <DesignSection />

@@ -1,0 +1,26 @@
+.concept {
+    background-color: #F5F5F5;
+    padding: 8% 8%;
+}
+
+.concept h2 {
+    /* padding-top: 8%; */
+}
+
+.text-right {
+    padding: 0 0% 0 40%;
+}
+
+.wireframe-img {
+    display: block;
+    margin: 8% auto;
+}
+
+@media screen and (max-width:480px) {
+    .concept {
+        padding: 16% 8%;
+    }
+    .text-right {
+        padding: 0 0% 0 0%;
+    }
+}
